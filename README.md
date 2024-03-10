@@ -151,7 +151,7 @@ in_img = cv2.imread("beach.jpg")
 in_img = cv2.cvtColor(in_img,cv2.COLOR_BGR2RGB)
 plt.imshow(in_img)
 plt.show()
-cropped_img=in_img[2000:3000 ,1000:2500]
+cropped_img=in_img[50:200 ,50:500]
 plt.imshow(cropped_img)
 plt.show()
 ```
@@ -187,7 +187,8 @@ plt.show()
 
 
 ### vi)Image Cropping
-![Screenshot 2024-03-08 153619](https://github.com/vinodkumar-s/IMAGE-TRANSFORMATIONS/assets/113497226/fa793f64-7883-4858-84e4-d8b9b7da8362)
+![Screenshot 2024-03-10 085150](https://github.com/vinodkumar-s/IMAGE-TRANSFORMATIONS/assets/113497226/d89dfeaf-b87d-43cf-ac6b-d43b39be1e1e)
+
 
 
 
